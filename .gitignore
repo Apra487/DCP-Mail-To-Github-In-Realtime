@@ -1,3 +1,19 @@
+node_modules
+testapicall/
+compute-engine/Automated-Daily-Coding-Problem/
+env_vars.yml
+compute-engine/.env
+compute-engine/node_modules
+auth/env_vars.yml
+auth/node_modules
+pubsub/node_modules
+pubsub/env_vars.yml
+.DS_Storenode_modules
+testapicall/
+Automated-Daily-Coding-Problem/
+.env
+
+.DS_Store
 # Logs
 logs
 *.log
@@ -127,4 +143,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+<<<<<<< HEAD
 .pnp.*
+=======
+.pnp.*
+>>>>>>> a056906 (chore: add gitignore ➕)
