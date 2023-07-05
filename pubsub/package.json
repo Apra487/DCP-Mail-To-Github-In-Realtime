@@ -1,0 +1,19 @@
+{
+  "name": "gcf-gmail-pubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@google-cloud/datastore": "^3.1.2",
+    "@google-cloud/express-oauth2-handlers": "^0.1.2",
+    "express": "^4.16.4",
+    "googleapis": "^37.2.0",
+    "axios": "^1.4.0"
+  }
+}
