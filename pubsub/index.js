@@ -76,7 +76,9 @@ const extractInfoFromMessage = (message) => {
 
   const payloadParts = message.data.payload.parts;
 
-  const rawText = Buffer.from(payloadParts[0]?.body?.data, 'base64').toString('ascii');
+  const rawText = Buffer.from(payloadParts[0]?.body?.data, 'base64').toString('ascii').split(
+    '--------------------------------------------------------------------------------'
+  )[0];
   const html = Buffer.from(payloadParts[1]?.body?.data, 'base64').toString('ascii');
 
   for (let j in payloadParts) {
